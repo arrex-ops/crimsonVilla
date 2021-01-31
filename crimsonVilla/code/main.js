@@ -109,7 +109,7 @@ let targetEle;
 let i = 0;
 
 window.addEventListener("load", (event) => {
-  targetEle = document.getElementsByClassName('section');
+  targetEle = document.getElementsByClassName('theme_container');
   createObserver();
 }, false);
 
@@ -123,7 +123,9 @@ function createObserver() {
   };
 
   observer = new IntersectionObserver(handleIntersect, options);
+//   observer.observe(targetEle[i]);
   observer.observe(targetEle[i]);
+//   console.log(targetEle[i])
 }
 
 function handleIntersect(entries, observer) {

@@ -18,6 +18,7 @@
     }
     #hero_title {
         font-size: 4rem;
+        display: block;
     }
     button {
         padding: 1rem;
