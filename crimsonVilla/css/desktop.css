@@ -1,0 +1,274 @@
+
+@media only screen and (min-width: 768px) {
+    .google {
+        width: 50%;
+        margin: 0rem 0rem;
+    }
+    .map {
+        flex-direction: row;
+        margin: 3rem 4rem !important;
+        padding: 2rem;
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 1.25rem;
+        font-family: 'Roboto', sans-serif;
+        height: fit-content;
+        line-height: 2;
+    }
+    #hero_title {
+        font-size: 4rem;
+    }
+    button {
+        padding: 1rem;
+        letter-spacing: 3px;
+    }
+    button:hover {
+        letter-spacing: 6px;
+    }
+    main {
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        border-radius: 40px;
+    }
+    #sticky_nav_book_btn {
+        opacity: 1;
+        animation: pulse 2s infinite, scale 0.25s ease;
+        box-shadow: 0 0 0 0 rgb(248, 248, 248);
+        float: right;
+    }
+    .brand_container {
+        top: 0rem;
+        left: -1rem;
+        border-bottom-right-radius: 40px;
+        width: 10rem;
+        height: 10rem;
+        box-shadow: 0px 0px 10px 4px black;
+        margin: 0 0;
+    }
+    .hero_container > :nth-child(3) {
+        margin: 2rem 0rem;
+    }
+    main {
+        padding: 0rem 5rem;
+    }
+    .main_cards {
+        margin: 5rem auto;
+        padding: 1.5rem;
+        width: 60%;
+    }
+    .theme_container {
+        display: flex;
+        width: 100vw;
+    }
+    .accolades {
+        flex: 1 0 100vw;
+        height: 100%;
+        padding: 3rem 0rem;
+        overflow: visible;
+        background-color: white;
+        height: fit-content;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        box-shadow: 0px 0px 8px 0px black;
+        z-index: 10;
+    }
+    .accolades img {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        height: 20rem;
+    }
+    .noncard_header {
+        font-size: 3rem;
+        line-height: 4rem;
+        /* flex: 0 1 70%; */
+    }
+    .activities_theme {
+        flex: 0 0 100vw;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 10vw;
+        height: fit-content;
+    }
+    .slide_card {
+        flex: 0 0 20%;
+    }
+    #fac_text {
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .background.underlay {
+        height: 130vh;
+    }
+    .fa.fa-trophy {
+        flex: 0 1 30%;
+        font-size: 2rem;
+    }
+    #amenities_card_container {
+        justify-content: space-evenly;
+    }
+    .facilities {
+        justify-content: space-evenly;
+        flex: 0 1 40%;
+        color: white;
+    }
+    .reviews {
+        justify-content: space-evenly;
+        flex: 1 0 20%;
+        color: white;
+    }
+    .difference {
+        flex: 0 1 40%;
+        color: white;
+    }
+    .activities {
+        flex: 0 0 100vw;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        /* padding: 3rem 10vw; */
+    }
+    .amenities {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex: 1 0 100vw;
+        padding: 3rem 5vw;
+        color: white;
+        margin: 0 0 !important;
+        height: 100%;
+    }
+    .feedback {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .comments {
+        flex: 0 0 30%;
+    }
+    .reviews {
+        flex: 0 0 50%;
+
+    }
+
+    #about_card_container {
+        padding: 6rem 0rem;
+        flex-flow: row wrap;
+    }
+    .facebook_section {
+        padding: 2rem;
+        flex-direction: row;
+    }
+    .facebook_section > * {
+        margin-top: 2rem;
+    }
+    .text_container {
+        display: block;
+        /* height: 20rem; */
+    }
+    .text_container > * {
+        padding: 0.5rem 1rem;
+    }
+
+    .content_container > img {
+        overflow: none;
+    }
+    .circular_nav_container {
+        top: 85vh;
+    }
+    .circular_nav_button {
+        right: 4rem;
+    }
+    .slideshow-container {
+        margin: 0 0;
+    }
+    #overlay_three {
+        top: 0;
+        width: 160%;
+        height: 22rem;
+    }
+    #overlay_one {
+        height: 22rem;
+    }
+    #overlay_two {
+        height: 22rem;
+        top: 30%;
+    }
+    .content_container > * {
+        margin-top: 1rem;
+    }
+    .text_container.heading_content {
+        line-height: 1.75rem;
+        height: fit-content;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .hero_container p::after {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #about_card_container {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 6rem 6rem;
+    }
+    .main_cards {
+        margin: 4rem auto;
+        padding: 1rem;
+        width: 50%;
+        flex: 0 0 20%;
+        overflow: none;
+    }
+    #about_card_container {
+        padding: 6rem 0rem;
+        flex-direction: column;
+    }
+    #first_section {
+        order: 2;
+        transform: scale(1.1);
+    }
+    #second_section {
+        order: 1;
+    }
+    #fourth_section {
+        order: 3;
+    }
+    .hero_container p::after {
+        width: 15%;
+        content: '';
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .hero_container > :nth-child(n) {
+        margin: 1.25rem 0rem;
+    }
+    .theme_container {
+        width: 100vw;
+    }
+    .activities_theme {
+        height: fit-content;
+        flex: 0 0 auto;
+        padding: 6rem 0rem;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    #about_card_container {
+        flex-direction: row;
+        width: 95%;
+    }
+    .main_cards {
+        flex-basis: 30%;
+    }
+    .content_wrapper {
+        width: 60%;  
+    }
+    .map {
+        width: 60%;
+    }
+}

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimson Villa - Self-Contained Accommodation in the Heart of Katoomba, Blue Mountains, Australia</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css"/>
+    <link type="text/css" rel="stylesheet" href="../css/stylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../css/fonts.css">    
+    <link type="text/css" rel="stylesheet" href="../css/slideshow.css"">    
+    <link type="text/css" rel="stylesheet" href="../css/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="vnmTLkvt"></script>
+    <div class="circular_nav_container" id="circular_nav_container">
+        <div class="circular_nav_button" id="animation_expand_container" onclick="navMove(1)"></div>
+        <div class="circular_nav_button" id="top_icon">
+            <a href="#home" class="fa fa-home"></a>
+        </div>
+        <div class="circular_nav_button" id="facebook_icon">
+            <a href="https://www.facebook.com/Crimson-Villa-438640706217026/" target="_blank" rel="noopener noreferrer"  class="fa fa-facebook"></a>
+        </div>
+        <div class="circular_nav_button" id="whatsapp_icon">
+            <a href="https://api.whatsapp.com/send?phone=61426866247" target="_blank" rel="noopener noreferrer" class="fa fa-whatsapp"></a>
+        </div>
+        <div class="circular_nav_button" id="email_icon">
+            <a href="mailto:bookings@crimsonvilla.com.au" target="_blank" rel="noopener noreferrer"  class="fa fa-envelope"></a>
+        </div>
+        <div class="circular_nav_button" id="nav_action_button">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+    </div>
+    <div class="hero_overflow"></div>
+    <nav>
+        <div class="brand_container">
+            <img src="..\images\Misc\CrimsonVilla-LOGO.png"/>
+        </div>
+        <a href="https://www.au.v3travel.com/CABS4/Pages/Availability.aspx?exl_dn=aaa_mywebsite&exl_psn=crimson_villa_Rezobx" target="_blank" rel="noopener noreferrer">
+            <button class="action_btn book" id="sticky_nav_book_btn">Book Now</button>
+        </a>
+    </nav>
+    <header id="home">
+        <div class="hero_container">
+            <p id="hero_title"><strong>Crimson Villa</strong></p>
+            <div class="icon_container rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <h1>Self-Contained Accommodation<br> in the Heart of Katoomba, Blue Mountains, Australia</h1>
+            <a href="https://www.au.v3travel.com/CABS4/Pages/Availability.aspx?exl_dn=aaa_mywebsite&exl_psn=crimson_villa_Rezobx" target="_blank" rel="noopener noreferrer">
+                <button class="action_btn book">Check Availability</button>
+            </a>
+            <div class="explore_btn" onmouseover="exploreArrowDown()" onmouseout="exploreArrowUp()">
+                <a href="#main"><button class="action_btn explore">Explore</button></a>
+                <div class="explore-arrow top"></div>
+                <div class="explore-arrow middle" id="middle"></div>
+                <div class="explore-arrow bottom" id="bottom"></div>
+            </div>
+        </div>
+        <!-- Explore Call To Action  -->
+
+    </header>
+    
+    <main id="main">
+        <!-- Mini Circular Nav Menu - Facebook, Email, Home, WhatsApp  -->
+
+        <div class="divider">
+        </div>
+        <section class="theme_container" id="about_card_container">
+            
+            <div class="section container main_cards" id="first_section">
+                <!-- Animated Section Overlay -->
+                <div class="angle_overlay" id="overlay_one"></div>
+                <p class="section_intro">Escape with us</p>
+                <div class="text_container" id="aboutUs1">
+                    <p>Crimson Villa is a romantic yet family friendly self-contained home away from home with clean lines and a colourful aura. 
+                        Fully equipped with the comforts and luxuries of home, Crimson villa sleeps up to 5 people, with a queen bed, two 
+                        singles, plus a lounge/sofa. <br><br><strong>Explore the gallery below.</strong>
+                    </p>              
+                </div>
+                <!-- Slideshow One with Photos -->
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="..\images\Misc\cvMainBed.png" style="width: 100%;" alt="Master Bedroom">
+                    </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="..\images\Misc\cvLoungeroomAll.png"style="width: 100%;" alt="loungeroom">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="..\images\Misc\cvDoubleBed2.png"style="width: 100%;" alt="twin singles">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="..\images\Misc\cvDoubleBed.png"style="width: 100%;" alt="twin singles">
+                    </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="..\images\Misc\cvDining.png"style="width: 100%;" alt="dining and lounge">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="..\images\Misc\cvlaundry.png"style="width: 100%;" alt="laundry">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="..\images\Misc\crimson villa arch cocky.png"style="width: 100%;" alt="perched cockatoo">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="..\images\Misc\cvBath2.png"style="width: 100%;" alt="bathroom">
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+            <!-- Enjoy nature (Includes Overlay Two)  -->
+            <div class="section container main_cards" id="second_section">
+                <div class="angle_overlay" id="overlay_two"></div>
+                <p class="section_intro">Enjoy nature</p>
+                <div class="text_container">
+                    <p>Secluded above Catalina Reserve and surrounded by the Blue Mountains National Park we are close to a variety of bush walks. 
+                        Along with a private spacious garden and with regular visits by Crimson Rosellas, 
+                        King Parrots and Bower Birds, the villa is just the right distance from Katoomba village to provide both tranquility and convenience.
+                    </p>
+                </div>
+                <div class="content_container">
+                    <img src="..\css\crimson villa 3 kingy.jpg">
+                </div>
+            </div>
+            <!-- See the sites (Includes Overlay Three)  -->
+            <div class="section container main_cards" id="fourth_section">
+                <div class="angle_overlay" id="overlay_three"></div>
+                <p class="section_intro">See the sites</p>
+                <div class="text_container">
+                    
+                    <p>The famous Three Sisters, Scenic Railway and local cafes and galleries are only minutes away. 
+                    A visit to the newly refurbished Hydro Majestic at Mellow Bath is a 10 minute drive and well worth the short trip...Treat yourself and enjoy one of their High Teas..
+                    </p>
+                </div>
+                <div class="content_container">
+                    <img src="..\images\Misc\DNSWSeeSites.png">
+                </div>
+            </div>
+            
+        </section>
+        <div class="divider"></div>
+        <section class="theme_container" id="amenities_card_container">
+            <div class="section container amenities">
+                <div class="section container difference">
+                    <div class="text_container heading_content">
+                        <p class="noncard_header" style="font-family: 'Roboto'">The Crimson Villa Difference</p>
+                        <div class="icon_container trophy">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-trophy"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>Feel at home enjoying the Villa's amenities, while taking advantage of your hosts expert knowledge of the magnificient Blue Mountains region.</p>
+                        <a href="https://www.au.v3travel.com/CABS4/Pages/Availability.aspx?exl_dn=aaa_mywebsite&exl_psn=crimson_villa_Rezobx" target="_blank" rel="noopener noreferrer">
+                            <button class="action_btn check">Check Availability</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="section container facilities" id="third_section">
+                    <div class="expect dark">
+                        <div class="facility_container">
+                            <img src="..\images\Facilities\wifiWhite.png" alt="wifi">
+                            <p>Unlimited<br> Wifi</p>
+                        </div>
+                        <div class="facility_container">
+                            <img src="..\images\Facilities\tvWhite.png" alt="television">
+                            <p>TV +<br> Chromecast</p>
+                        </div>
+                        <div class="facility_container">
+                            <img src="..\images\Facilities\locationWhite.png" alt="great location">
+                            <p>Great Location</p>
+                        </div>
+                        <div class="facility_container">
+                            <img src="..\images\Facilities\washingWhite.png" alt="full laundry facilities">
+                            <p>Full Laundry</p>
+                        </div>
+                        <div class="facility_container">
+                            <img src="..\images\Facilities\dblBedWhite.png" alt="Quality Bedding">
+                            <p>Quality Bedding</p>
+                        </div>
+                        <div class="facility_container">
+                            <img src="..\images\Facilities\kitchenWhite.png" alt="Full Kitchen">
+                            <p>Full Kicthen</p>
+                        </div>
+                        <div class="facility_container">
+                            <i class="fa fa-map"></i>
+                            <p>Local Knowledge</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="theme_container accolades_theme">
+            <div class="background_image"></div>
+            <div class="section container accolades">
+                <a href="https://www.travelmyth.com/Katoomba/Hotels" class=""><img src="..\images\Accolades\travelmyth 300 accm_2.png" class=""></a>
+                <img src="..\images\Accolades\booking9.3trans.png">
+                <a href="https://www.travelmyth.com/Katoomba/Hotels/parking" class=""><img src="..\images\Accolades\travelmyth 300 park_2.png" class=""></a>
+            </div>
+        </section>
+        <section class="theme_container activities_theme">
+            <div class="section container activities">
+                <div class="text_container heading_content">
+                    <p class="noncard_header" style="font-family: 'Roboto'">An Idyllic Location</p>
+                    <div class="icon_container trophy">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-binoculars"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Just minutes by car from all of the regions most famous tourist attractions and local shops, Crimson Villa offers the ultimate convenience.</p>
+                </div>
+                <div class="expect light">
+                    <div class="ribbon_container">
+                        <div class="notch">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTUwMiA2NS42OTVoLTIwNS41ODhjLTQuNDg1LTE4LjE2NC0yMC45MDMtMzEuNjcyLTQwLjQxMi0zMS42NzJzLTM1LjkyNyAxMy41MDgtNDAuNDEyIDMxLjY3MmgtMjA1LjU4OGMtNS41MjIgMC0xMCA0LjQ3OC0xMCAxMHM0LjQ3OCAxMCAxMCAxMGgyMDUuNTg4YzMuNjkzIDE0Ljk1NiAxNS40NzUgMjYuNzU0IDMwLjQxMiAzMC40NTZ2NTYuNTE0aC0xNTEuNTFjLTIzLjI2MiAwLTQyLjE4NyAxOC45MjUtNDIuMTg3IDQyLjE4N3YyMjAuOTM5YzAgMjMuMjYxIDE4LjkyNSA0Mi4xODYgNDIuMTg3IDQyLjE4NmgzMjMuMDJjMjMuMjYyIDAgNDIuMTg3LTE4LjkyNSA0Mi4xODctNDIuMTg2di0yMjAuOTM5YzAtMjMuMjYyLTE4LjkyNS00Mi4xODctNDIuMTg3LTQyLjE4N2gtMTUxLjUxdi01Ni41MTRjMTQuOTM3LTMuNzAyIDI2LjcxOS0xNS41IDMwLjQxMi0zMC40NTZoMjA1LjU4OGM1LjUyMiAwIDEwLTQuNDc4IDEwLTEwcy00LjQ3OC0xMC0xMC0xMHptLTQyOS42OTYgMzQzLjAzOXYtNjguODcyaDEwMS43MDh2NjguODcyem0yMi4xODYtMjE2LjA2OWg3OS41MjF2MTI3LjE5N2gtMTAxLjcwN3YtMTA1LjAxYzAtMTIuMjM0IDkuOTUzLTIyLjE4NyAyMi4xODYtMjIuMTg3em0zMjMuMDIgMjY1LjMxMmgtMzIzLjAyYy0xMi4yMzMgMC0yMi4xODctOS45NTItMjIuMTg3LTIyLjE4NnYtNy4wNTdoMzY3LjM5M3Y3LjA1N2MwIDEyLjIzMy05Ljk1MyAyMi4xODYtMjIuMTg2IDIyLjE4NnptLTc5LjUyMi0xMTguMTE1aDEwMS43MDh2NjguODcyaC0xMDEuNzA4em0xMDEuNzA4LTEyNS4wMXYxMDUuMDExaC0xMDEuNzA4di0xMjcuMTk4aDc5LjUyMWMxMi4yMzQgMCAyMi4xODcgOS45NTMgMjIuMTg3IDIyLjE4N3ptLTEyMS43MDggMTkzLjg4MmgtMTIzLjk3NnYtMjE2LjA2OWgxMjMuOTc3djIxNi4wNjl6bS02MS45ODgtMzExLjM2N2MtMTEuOTI0IDAtMjEuNjI0LTkuNzIyLTIxLjYyNC0yMS42NzJzOS43LTIxLjY3MiAyMS42MjQtMjEuNjcyIDIxLjYyNCA5LjcyMiAyMS42MjQgMjEuNjcyLTkuNyAyMS42NzItMjEuNjI0IDIxLjY3MnoiLz48cGF0aCBkPSJtMjI3LjI0MiAzMDYuMTM0aDU3LjUxNmM1LjUyMiAwIDEwLTQuNDc4IDEwLTEwdi03MC4yOTFjMC01LjUyMi00LjQ3OC0xMC0xMC0xMGgtNTcuNTE2Yy01LjUyMiAwLTEwIDQuNDc4LTEwIDEwdjcwLjI5MWMwIDUuNTIyIDQuNDc4IDEwIDEwIDEwem0xMC03MC4yOTFoMzcuNTE2djUwLjI5MWgtMzcuNTE2eiIvPjxwYXRoIGQ9Im0yMjcuMjQyIDM1NC4wOTJjNS41MjIgMCAxMC00LjQ3OCAxMC0xMHYtMTMuMDIyYzAtNS41MjItNC40NzgtMTAtMTAtMTBzLTEwIDQuNDc4LTEwIDEwdjEzLjAyMWMwIDUuNTIzIDQuNDc4IDEwLjAwMSAxMCAxMC4wMDF6Ii8+PC9nPjwvc3ZnPg==" alt="Scenic World" /> 
+                        </div>
+                        <div class="ribbon">
+                            <p>Scenic World (5min)</p>
+                        </div>
+                    </div>
+                    <div class="ribbon_container">
+                        <div class="notch">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggZD0ibTIyMi43MzQgMzc2LjY1NmE2IDYgMCAwIDAgLTguNDEyIDEuMTE4Yy0zLjkgNS4xLTE2LjY3NyAyMS42LTE5LjYgMjUuMmE2IDYgMCAxIDAgOS4zMDYgNy41NzdjMy4wNDktMy43NDUgMTUuNzg0LTIwLjE5NSAxOS44MjktMjUuNDgyYTYgNiAwIDAgMCAtMS4xMjMtOC40MTN6Ii8+PHBhdGggZD0ibTQ1LjkyNyA0NDUuNTQyaC02LjVhNiA2IDAgMSAwIDAgMTJoNi41YTYgNiAwIDEgMCAwLTEyeiIvPjxwYXRoIGQ9Im0xNjEuMzI0IDQ0NS41NDJoLTk0LjNhNiA2IDAgMCAwIDAgMTJoOTQuM2E2IDYgMCAwIDAgMC0xMnoiLz48cGF0aCBkPSJtNTAuMTU2IDg4LjMxMmg1Mi44MjhhMjIuMSAyMi4xIDAgMCAwIDMuNjg0LTQzLjg3NCAzMS4yMTkgMzEuMjE5IDAgMCAwIC02MC40LjAwNiAyMi4xIDIyLjEgMCAwIDAgMy44OTEgNDMuODY4em0tNy4yMTQtMjkuMTk1YTEwLjA3MyAxMC4wNzMgMCAwIDEgNy4xMTctMy4wMTdoMS4yNzNhNiA2IDAgMCAwIDUuOTc1LTUuNDU1IDE5LjIyIDE5LjIyIDAgMCAxIDM4LjI4Ni0uMDQ1IDYgNiAwIDAgMCA1Ljk3OSA1LjVoMS4yNjlhMTAuMTUgMTAuMTUgMCAwIDEgMTAuMTM1IDEwLjAzNSAxMC4xMjMgMTAuMTIzIDAgMCAxIC0xMC4wMzMgMTAuMTczaC01Mi43ODJhMTAuMTUyIDEwLjE1MiAwIDAgMSAtMTAuMTM1LTEwLjAzMSAxMC4wMTkgMTAuMDE5IDAgMCAxIDIuOTE2LTcuMTZ6Ii8+PHBhdGggZD0ibTQ3OC4yMyAyNjYuNDUzYTYuNDIxIDYuNDIxIDAgMCAxIC02LjQtNi45NzVsMTcuMTQ1LTE5Ni4wMTRhMjcuMDE3IDI3LjAxNyAwIDAgMCAtMzIuNTk0LTI4Ljc1NnEtLjEyOS4wMjctLjI1NS4wNmwtNDYuMTA2IDEyLjAzMmEyNyAyNyAwIDAgMCAtMjAuMTA3IDM0LjAxIDE1LjAxIDE1LjAxIDAgMCAxIC0xNC40MSAxOS4yNTFoLTkuNjcxYTI3LjA0NiAyNy4wNDYgMCAwIDAgLTI3LjAyMiAyNy4wMDd2NTQuMjczbC0yNS4yMjEtMjUuNjY1YTI2LjM3IDI2LjM3IDAgMCAwIC0zNi42NzMtMS4wMTdsLTI4LjMzMiAyNS44YTI2LjM5MSAyNi4zOTEgMCAwIDAgLTcuNjQ2IDEyLjM4MWwtMjEuNzA2IDc3LjE0YTE4LjM4NyAxOC4zODcgMCAwIDEgLTcuMDItMTQuMjE1bC0xLTExNS40OTFhNTkuMSA1OS4xIDAgMCAwIDM0LjIzLTExMi43MDljLTI3Ljk0Ny0xMS4xNDQtNjAuNjIxIDIuMjY0LTc0LjU5NCAyOS45NTZsLTI0LjUgMi41NjNhMTYuNjg1IDE2LjY4NSAwIDAgMCAtMTMuOTY1IDExLjA1OWwtOS45MDggMjguNDQxYTQuNjIxIDQuNjIxIDAgMCAxIC02LjM2IDIuNjQ0bC05LjE4Ni00LjRhMTYuNjIgMTYuNjIgMCAwIDAgLTIzLjczNiAxMy41NDRsLTQwLjU2NSAxODkuODM2YTIyNy4zNTkgMjI3LjM1OSAwIDAgMCAtNC43NDQgNTMuOTQxdi4wNDYuMTcyYy44NzMgMjkuNDc5LTEwLjI1NSA0NS4wNTMtMTguMzc5IDU2LjQyNC00LjUzOCA2LjM1MS04LjEyMyAxMS4zNjgtOC40ODEgMTcuMTktLjAwNy4xMjMtLjAxMS4yNDYtLjAxMS4zNjl2NTUuNTI0YTYgNiAwIDAgMCA2IDZoNDc3Ljk3YTYgNiAwIDAgMCA2LTYuMTNsLTQuMzI4LTE5OS45NDRhMTguNDQxIDE4LjQ0MSAwIDAgMCAtMTguNDI1LTE4LjM0N3ptLTIzNy4yMy0yMjcuNzQyYTQ3LjEgNDcuMSAwIDAgMSAtMjkuODkgODkuMTgybC0uNDg2LTU2LjIzNWExNi42MTcgMTYuNjE3IDAgMCAwIC0xOC4zNS0xNi4zNzhsLTYuNDU1LjY3NWMxMi42ODktMTcuNDE4IDM1LjQ1LTI1LjExMSA1NS4xODEtMTcuMjQ0em0tMjcuNDM4IDQ0MC4xNjMtMjAuNjYyLTI1Ljk4NmEyMi4yMzggMjIuMjM4IDAgMCAxIC0xLjEwNi0yNi4yMjIgNiA2IDAgMCAwIC05Ljk5NC02LjY0MiAzNC4yIDM0LjIgMCAwIDAgMS43MDggNDAuMzMybDE0LjcyMiAxOC41MThoLTE3NS4yMTN2LTQ5LjI5M2MuMjQ4LTIuNDA2IDMuMTY4LTYuNDkyIDYuMjU2LTEwLjgxMyA3Ljg1OC0xMSAxOS4zOC0yNy4xNDIgMjAuNTU5LTU1LjRsMTIuOTYgNC4xYTYgNiAwIDEgMCAzLjYyLTExLjQ0MWwtMTYuNTk0LTUuMjQ5YTIxMy45NDEgMjEzLjk0MSAwIDAgMSA0LjU0Ni00Ny4wNThsMTQuOS02OS43MDkgMjQuMDg3IDQuMjQ2YTUuOTM5IDUuOTM5IDAgMCAwIDEuMDQ4LjA5MiA2IDYgMCAwIDAgMS4wMzUtMTEuOTA5bC0yMy42NjEtNC4xNzIgMTIuMjQ1LTU3LjNoMTcuNTUyYTYgNiAwIDAgMCA1LjM1OC0zLjNsOS42OTUtMTkuMjMzYTYgNiAwIDEgMCAtMTAuNzE2LTUuNGwtOC4wMzIgMTUuOTM0aC0xMS4yOTZsOC40MzctMzkuNDg0YTUuOTU5IDUuOTU5IDAgMCAwIC4xMjMtLjkyMSA0LjYyIDQuNjIgMCAwIDEgNi42MDktMy45bDkuMTg2IDQuNGExNi42MjIgMTYuNjIyIDAgMCAwIDIyLjg3NC05LjUxOWw5LjkwOC0yOC40NDFhNC42MzcgNC42MzcgMCAwIDEgMy44ODItMy4wNzJsNDUuOTI1LTQuODA1YTQuNjE4IDQuNjE4IDAgMCAxIDUuMSA0LjU0OGwuNjU3IDc2LjE5My0yMi44OS43MjNhNiA2IDAgMCAwIC01LjY1MyA0LjYzMWwtMTIuMDM3IDUxLjQ1N2E2IDYgMCAxIDAgMTEuNjg1IDIuNzMzbDEwLjk5My00Ni45ODUgMTguMDExLS41NjkuODI4IDk1LjkwOGEzMC40NTYgMzAuNDU2IDAgMCAwIDE5LjYxNCAyOC4wNjRsMzQuNyAxMy4wNTEgNi4zMTIgMzAuNzZhNiA2IDAgMCAwIDExLjc1NS0yLjQxMmwtNC43OTgtMjMuMzU1IDIwLjA2IDcuNTQ2YTE4LjM1NSAxOC4zNTUgMCAwIDEgMTEuODQgMTcuMDk0djYzLjQ4NmE2IDYgMCAxIDAgMTIgMHYtNjMuNDg2YTMwLjQxMSAzMC40MTEgMCAwIDAgLTE5LjYxNC0yOC4zMjVsLTYxLjgxLTIzLjI1IDEzLjY3OC00OC42MTFoMTIuNzE2YTYgNiAwIDAgMCAwLTEyaC05LjM0Mmw1LjE2MS0xOC4zNDFhMTQuNDA2IDE0LjQwNiAwIDAgMSA0LjE3NS02Ljc1OGwyOC4zMzYtMjUuNzk3YTE0LjQwNSAxNC40MDUgMCAwIDEgMjAuMDM1LjU1NWwxMy4wMjUgMTMuMjU1djIzLjYzNWE2IDYgMCAxIDAgMTIgMHYtMTEuNDI0bDIwLjM3NiAyMC43MzVhMTQuNCAxNC40IDAgMCAxIDQuMTI0IDkuNWw1LjMyIDEyNy4zMDd2LjA4M2wzLjc5NSA5MC44MjUtMjAuNjY1LTIyLjQyMmE2IDYgMCAxIDAgLTguODI1IDguMTMxbDMwLjI2NSAzMi44NDYuOTMyIDIyLjMxNnptMjA2LjgzMSAwdi0yNi41bDIzLjE4Mi05Ljk5YTYgNiAwIDAgMCAtNC43NDktMTEuMDJsLTI2LjgwOCAxMS41NTZhNiA2IDAgMCAwIC0zLjYyNSA1LjUxdjMwLjQ0NGgtMzFsLTUuMzU5LTEyOC4yMTkgMTMuOC02LjQ1MmE2IDYgMCAxIDAgLTUuMDgxLTEwLjg3MWwtOS4yNjYgNC4zMy00Ljk0Ny0xMTguMzcxYTI2LjM3NCAyNi4zNzQgMCAwIDAgLTcuNTU0LTE3LjQxNGwtOC4xOC04LjMyNXYtNjYuNDg0YTE1LjAzMiAxNS4wMzIgMCAwIDEgMTUuMDIyLTE1LjAwN2gzLjY3MnYxOS45NTFhNiA2IDAgMCAwIDEyIDB2LTIwLjYxMmEyNy4wMjIgMjcuMDIyIDAgMCAwIDE5LjkxOC0zMy45ODIgMTUuMDA3IDE1LjAwNyAwIDAgMSAxMS4yNTctMTguOTE4Yy4wODYtLjAxOC4xNzEtLjAzOC4yNTYtLjA2bDQ2LjA4Ni0xMi4wMjNhMTUuMDA5IDE1LjAwOSAwIDAgMSAxNy4xODMgOS42NTRsLTYuOTA3LS44MzlhNiA2IDAgMCAwIC0xLjQ0OCAxMS45MTJsOC42NzEgMS4wNTMtMTUuMjg0IDE3NC43MTktMjUuMjUxIDcuMzQ3YTYgNiAwIDEgMCAzLjM1MyAxMS41MjJsMjAuNzc2LTYuMDQ1LS4yMzUgMi42OTJhMTguNDIxIDE4LjQyMSAwIDAgMCAxOC4zNTUgMjAuMDIxIDYuNDI3IDYuNDI3IDAgMCAxIDYuNDI1IDYuNDE2di4xMjlsMS42NzggNzcuNTc2LTEzLjctMS44NjNhNiA2IDAgMCAwIC0xLjYxNyAxMS44OTFsMTUuNTg0IDIuMTE4IDIuMjU0IDEwNC4xNTR6Ii8+PC9zdmc+"  alt="Three Sisters"/>
+                        </div>
+                        <div class="ribbon">
+                            <p>Three Sisters (5min)</p>
+                        </div>
+                    </div>
+                    <div class="ribbon_container">
+                        <div class="notch">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PHBhdGggZD0ibTUxMS43NzIgNTAyLjY2Ny0zOC4xNS0xNTEuMzdjLTEuMDEzLTQuMDE3LTUuMDk0LTYuNDUzLTkuMTA1LTUuNDM5LTQuMDE3IDEuMDEyLTYuNDUyIDUuMDg5LTUuNDM5IDkuMTA1bDM1Ljc5NyAxNDIuMDM3aC02MC41NzJ2LTY4LjAxN2MwLTcuNTA3LTEuNzk4LTE1LjAxMy01LjE5OS0yMS43MDVsLTQ1LjgxOC05MC4xNTFjLTguMjE0LTE2LjE2MS0yNC41NzktMjYuMjAxLTQyLjcwNy0yNi4yMDFoLTE2LjI5N2MtMTcuMzc4IDAtMzMuNDIgOS40MzQtNDEuODY2IDI0LjYybC0yMC42MDUgMzcuMDQ2LTYyLjk4OSA4LjI2N2MtNC41NTguNTk4LTguOTM0IDIuMzQtMTIuNjU2IDUuMDM4bC0xNC41MzMgMTAuNTM3Yy01LjQ4NyAzLjk3OC05LjMxOCA5LjgxNC0xMC43ODYgMTYuNDMzbC03LjU0OCAzNC4wNDItMTguOTM1IDcwLjA5MWgtMzcuNDA4bDI0LjI5Ny0xMTAuMDUzYy44OTQtNC4wNDQtMS42NjItOC4wNDctNS43MDYtOC45NC00LjA1MS0uODkzLTguMDQ4IDEuNjYyLTguOTQgNS43MDdsLTI1LjAxMSAxMTMuMjg2aC02Ni4xMjZsMTcuMzE2LTI4NS4xNTVjLjI1MS00LjEzNC0yLjg5Ny03LjY5LTcuMDMxLTcuOTQxLTQuMTM0LS4yNDgtNy42ODkgMi44OTctNy45NDEgNy4wMzJsLTE3LjggMjkzLjExYy0uMTI1IDIuMDY0LjYwNyA0LjA4OSAyLjAyNCA1LjU5NSAxLjQxOCAxLjUwNSAzLjM5NCAyLjM1OSA1LjQ2MiAyLjM1OWg0OTdjMi4zMTIgMCA0LjQ5NS0xLjA2NiA1LjkxNi0yLjg5czEuOTIyLTQuMjAxIDEuMzU2LTYuNDQzem0tMjE2LjI0OC0xNzkuODNjNS44MDEtMTAuNDMxIDE2LjgyLTE2LjkxMSAyOC43NTctMTYuOTExaDE2LjI5N2MxMi40NTIgMCAyMy42OTMgNi44OTYgMjkuMzM2IDE3Ljk5N2w0NS44MTcgOTAuMTUxYzIuMzM2IDQuNTk3IDMuNTcxIDkuNzUyIDMuNTcxIDE0LjkwOXY2OC4wMTdoLTE2OC40NTF2LTYyLjU3NC0yMi43MzhjMC01LjU4NCAxLjQzNS0xMS4xMTUgNC4xNS0xNS45OTZ6bS0xMjAuMDM1IDczLjI3N2MuNjczLTMuMDM1IDIuNDMtNS43MTEgNC45NDYtNy41MzZsMTQuNTMyLTEwLjUzN2MxLjcwNy0xLjIzNyAzLjcxNC0yLjAzNiA1LjgwNC0yLjMxMWw1MS45Ni02LjgxOS0xMC44MzkgMTkuNDg5Yy0uNDk0Ljg4OC0uOTU5IDEuNzkxLTEuMzk1IDIuNzA3LTMuMDQ4IDYuNDEyLTQuNjQ3IDEzLjQ2Ni00LjY0NyAyMC41OHYxMS4yMTNsLTI0Ljg3NC0xMS4wMmMtMy41NjgtMS41ODEtNy4zODctMi4zNzctMTEuMjE4LTIuMzc3LTIuODgyIDAtNS43NzEuNDUxLTguNTYyIDEuMzU4bC0yMC40NSA2LjY0M3ptLTguNzI0IDM4LjQ1NSAyOS4wNjYtOS40NDJjMi45ODEtLjk2OSA2LjIwMi0uODAzIDkuMDY5LjQ2N2wzMC45NSAxMy43MTJ2NTcuNjk0aC04NS45NXoiLz48cGF0aCBkPSJtMjYuOTY1IDE4My45MzdjLjE1NS4wMDkuMzA5LjAxNC40NjIuMDE0IDMuOTM1IDAgNy4yMzctMy4wNjYgNy40NzktNy4wNDVsMS41Ni0yNS42NjJoMjYuMTMzYzEuMTQyIDAgMi4xNjcuNzY1IDIuNDkzIDEuODU5bDEzLjE4NyA0NC4yOGMyLjIwNiA3LjQwNiA5LjE0MyAxMi41NzggMTYuODcgMTIuNTc4aDI3LjE3N2M5LjcwNSAwIDE3LjYwMi03Ljg5NiAxNy42MDItMTcuNjAydi00NC40OTZjMC0uNDYyLjEyNC0uOTE3LjM1OC0xLjMxNmwzMC45NTEtNTIuNzM3Yy40NjUtLjc5MiAxLjMyNC0xLjI4NCAyLjI0My0xLjI4NGg2OC4yMzZsMTcuOTI1IDguMjM1YzIuMTk2IDEuMDEzIDQuMDQ3IDIuNjA5IDUuMzU0IDQuNjJsOS41MDcgMTQuNjA5aC0xNC40ODJjLTExLjU4NiAwLTIyLjA0IDcuMzEzLTI2LjAxNCAxOC4xOTVsLTQ2Ljg1IDEyOC4xNjljLTEuMzYyIDMuNzI2LTQuMzEyIDYuNTQ5LTguMDk0IDcuNzQ3bC0zNi42NjEgMTEuNjNjLTkuMzk0IDIuOTgxLTE2LjU0NiAxMC44MTItMTguNjY1IDIwLjQzMmwtOS41NzkgNDMuMzhjLS44OTQgNC4wNDUgMS42NjEgOC4wNDggNS43MDYgOC45NDEuNTQ1LjEyIDEuMDg5LjE3OCAxLjYyNC4xNzggMy40NDIgMCA2LjU0NC0yLjM4NCA3LjMxNi01Ljg4NGw5LjU4LTQzLjM4NGMuOTcyLTQuNDExIDQuMjUtNy45OTkgOC41NTQtOS4zNjVsMzYuNjU2LTExLjYyOWM4LjEyNC0yLjU3MiAxNC43MjItOC44ODcgMTcuNjUtMTYuODk1bDIuOTA5LTcuOTU4aDQ0LjM0NWM3LjMwNyAwIDEzLjc0My00LjM5OCAxNi4zOTgtMTEuMjA2bDkuNzczLTI1LjA2Yy4zOTMtMS4wMDYgMS4zNDQtMS42NTcgMi40MjQtMS42NTdoMTQuMTU2YzYuNTYzIDAgMTIuNTM2LTMuNjExIDE1LjU4Ny05LjQyNWwxMS4zOS0yMS43MTFjLjQ1MS0uODYgMS4zMzQtMS4zOTQgMi4zMDQtMS4zOTRoNDIuNzI5bDI1LjY5OCA1NC41MTZjLjE0My4zMDQuMzA3LjU5My40Ni44OWgtMzcuNzAxYy00LjE0MyAwLTcuNSAzLjM1OC03LjUgNy41czMuMzU3IDcuNSA3LjUgNy41aDYyLjMwMS4wMDFzLjAwMSAwIC4wMDIgMGgxMi4xMWM1LjgyOSAwIDEwLjg5NSAzLjk0OCAxMi4zMTcgOS42MDRsMTIuMDggNDcuOTJjMS4wMTMgNC4wMTcgNS4wOTMgNi40NSA5LjEwNSA1LjQzOSA0LjAxNy0xLjAxMyA2LjQ1Mi01LjA4OSA1LjQzOS05LjEwNmwtMTIuMDc5LTQ3LjkxNmMtMy4xMDMtMTIuMzI5LTE0LjE0OS0yMC45NC0yNi44NjMtMjAuOTRoLTEyLjExYy00Ljg5NSAwLTkuNDA3LTIuODYxLTExLjQ5NS03LjI4OGwtNDkuNjUtMTA1LjMzM2MtNC41NTQtOS42NTMtMTQuMzkyLTE1Ljg5LTI1LjA2My0xNS44OWgtMzUuNDEybC0xNC44MjktMjIuNzg4Yy0yLjg1LTQuMzg0LTYuODc3LTcuODY0LTExLjY1Ny0xMC4wNjhsLTQyLjk5Mi0xOS43NTFjLTMuNTQxLTEuNjI1LTYuMTA1LTQuNzI5LTcuMDM1LTguNTA5bC05LjI1OS0zNy43NjZjLTMuMDM5LTEyLjQyOC0xNC4xMDMtMjEuMTA4LTI2LjkwNi0yMS4xMDhoLTM4LjA1Yy04LjA2MiAwLTE1LjcwNCAzLjQ5OS0yMC45NjUgOS41OTdsLTI2LjExMyAzMC4yMjNjLTMuMzE5IDMuODQ2LTcuNTU5IDYuOTExLTEyLjI2NiA4Ljg2N2wtMTYuODI2IDcuMDA4Yy0yMy44NDcgOS45MTYtNDAuMjY1IDMyLjk4MS00MS44MjYgNTguNzZsLTMuNzQgNjEuNTRjLS4yNTEgNC4xMzUgMi44OTYgNy42OSA3LjAzMSA3Ljk0MnptMzEyLjM0MS00MS42NTkgMTYuODgzIDM1LjgxNmgtMzUuNjU5Yy02LjU2MyAwLTEyLjUzNiAzLjYxMS0xNS41ODcgOS40MjVsLTExLjM4OSAyMS43MTFjLS40NTEuODYtMS4zMzUgMS4zOTQtMi4zMDUgMS4zOTRoLTE0LjE1Ni0yNC42NDJjLTQuMTQzIDAtNy41IDMuMzU4LTcuNSA3LjVzMy4zNTcgNy41IDcuNSA3LjVoNi43NjRsLTguMjk0IDIxLjI2NmMtLjM5MyAxLjAwNi0xLjM0NCAxLjY1Ny0yLjQyNCAxLjY1N2gtMzguODYybDM4LjQ1OS0xMDUuMjE1YzEuODIyLTQuOTg5IDYuNjE0LTguMzQyIDExLjkyNS04LjM0Mmg2Ny43OWM0Ljg5NiAwIDkuNDA5IDIuODYyIDExLjQ5NyA3LjI4OHptLTI2OC4wNDItNzIuNzM0IDE2LjgyNC03LjAwOGM2Ljg0Ny0yLjg0NCAxMy4wMjItNy4zMTEgMTcuODU2LTEyLjkxMmwyNi4xMTQtMzAuMjI0YzIuNDEyLTIuNzk2IDUuOTE1LTQuMzk5IDkuNjExLTQuMzk5aDM4LjA1YzUuODcgMCAxMC45NDIgMy45NzcgMTIuMzM2IDkuNjc2bDkuMjYxIDM3Ljc3NWMxLjQ5IDYuMDU2IDQuOTAzIDExLjMwNiA5LjY2MiAxNS4wNzVoLTczLjY1MmMtNS4xMTYgMC0xMC4wODQgMS44MjEtMTMuOTg2IDUuMTI3bC0xMy4xMjYgMTEuMTE2Yy0zLjE2MSAyLjY3Ny0zLjU1NCA3LjQwOS0uODc3IDEwLjU3IDEuNDgzIDEuNzUxIDMuNTk5IDIuNjUzIDUuNzI4IDIuNjUzIDEuNzEyIDAgMy40MzQtLjU4MyA0Ljg0My0xLjc3N2wxMy4xMjYtMTEuMTE2YzEuMTk3LTEuMDE1IDIuNzIyLTEuNTczIDQuMjkyLTEuNTczaDE3LjI3MWwtMjcuMjQ5IDQ2LjQyOGMtMS41ODQgMi42OTktMi40MjIgNS43NzktMi40MjIgOC45MXY0NC40OTZjMCAxLjQzNS0xLjE2NyAyLjYwMi0yLjYwMiAyLjYwMmgtMjcuMTc2Yy0xLjE0MyAwLTIuMTY4LS43NjUtMi40OTMtMS44NTlsLTEzLjE4OC00NC4yOGMtMi4yMDYtNy40MDYtOS4xNDMtMTIuNTc4LTE2Ljg2OS0xMi41NzhoLTI1LjIyMWwxLjI2OS0yMC44OGMxLjIxNy0yMC4xMDUgMTQuMDE5LTM4LjA4OSAzMi42MTgtNDUuODIyeiIvPjxwYXRoIGQ9Im03Ni41NzUgMjUwLjA3NHYzNi45NTdjMCAyLjExMi0uNTMzIDQuMjEtMS41NDIgNi4wNjdsLTE4LjEzMiAzMy4zNTRjLTIuMjAxIDQuMDQ4LTMuMzY0IDguNjIzLTMuMzY0IDEzLjIzMnY1MC42MWMwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41czcuNS0zLjM1OCA3LjUtNy41di01MC42MWMwLTIuMTE0LjUzMy00LjIxMSAxLjU0Mi02LjA2N2wxOC4xMzMtMzMuMzU1YzIuMi00LjA0OSAzLjM2My04LjYyNCAzLjM2My0xMy4yM3YtMzYuOTU3YzAtNC4xNDItMy4zNTctNy41LTcuNS03LjVzLTcuNSAzLjM1Ny03LjUgNy40OTl6Ii8+PC9nPjwvZz48L3N2Zz4=" alt="Jenolan Caves" /> 
+                        </div>
+                        <div class="ribbon">
+                            <p>Jenolan Caves (30min)</p>
+                        </div>
+                    </div>
+                    <div class="ribbon_container">
+                        <div class="notch">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQ5MHB0IiB2aWV3Qm94PSIwIC0yMyA0OTAuMDQgNDkwIiB3aWR0aD0iNDkwcHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ4My44ODY3MTkgMjM2Ljc2MTcxOS0zOCAxNmMtLjc0NjA5NC4zMjAzMTItMS40NDE0MDcuNzUtMi4wNjI1IDEuMjczNDM3bC01MS4yOTY4NzUgNDMuNTAzOTA2LS45MDIzNDQtMi4xOTE0MDZjLTQuOTY0ODQ0LTExLjg5NDUzMS0xOC4yNjU2MjUtMTcuOTM3NS0zMC40ODgyODEtMTMuODQ3NjU2bC01LjYwMTU2MyAxLjg4NjcxOS00LjE0NDUzMS00LjE5MTQwNy0xOS41NTg1OTQtMzIuNTkzNzUgMjIuNTE5NTMxLTEwMi44MDg1OTMgMTEuNjI1LTUuODI0MjE5YzcuMTQ4NDM4LTMuNjAxNTYyIDExLjQ1NzAzMi0xMS4xMjEwOTQgMTAuOTU3MDMyLTE5LjEwOTM3NS0uNS03Ljk5MjE4Ny01LjcxODc1LTE0LjkxMDE1Ni0xMy4yNjE3MTktMTcuNTkzNzVsNC44MDA3ODEtMjEuOTEwMTU2Yy43OTY4NzUtNC4yNTM5MDctMS45MjU3ODEtOC4zNzEwOTQtNi4xNTIzNDQtOS4yOTI5NjktNC4yMzA0NjgtLjkyNTc4MS04LjQyNTc4MSAxLjY3OTY4OC05LjQ3MjY1NiA1Ljg3NWwtNS44Nzg5MDYgMjYuODI0MjE5LTYxLjY1NjI1IDMwLjg3MTA5My0yMy4xOTkyMTktMTkuODk0NTMxLjM1OTM3NS0yLjA0Njg3NWMxLjMzOTg0NC04LjE0ODQzNy0uMTg3NS0xNi41MDc4MTItNC4zMjAzMTItMjMuNjU2MjUgMTMuNzIyNjU2LS45NDkyMTggMjYuMjEwOTM3LTguMjc3MzQ0IDMzLjcyMjY1Ni0xOS44MDQ2ODcgNy41MTE3MTktMTEuNTIzNDM4IDkuMTc5Njg4LTI1LjkwNjI1IDQuNTA3ODEyLTM4Ljg0Mzc1bDI4LjE3NTc4Mi0xNC4wNjY0MDdjMy45NzI2NTYtMS45Njg3NSA1LjU5NzY1Ni02Ljc4NTE1NiAzLjYyNS0xMC43NTc4MTItMS45Njg3NS0zLjk3MjY1Ni02Ljc4OTA2My01LjU5Mzc1LTEwLjc1NzgxMy0zLjYyNWwtMjkuMTA1NDY5IDE0LjU1MDc4MWMtMTUuNDAyMzQzLTE4LjEwMTU2Mi00Mi40MTAxNTYtMjAuNjc5Njg3LTYwLjk1NzAzMS01LjgxNjQwNi0xOC41NTA3ODEgMTQuODYzMjgxLTIxLjkyMTg3NSA0MS43ODEyNS03LjYwOTM3NSA2MC43NjE3MTktMi4zNjcxODcuNDc2NTYyLTQuNjc1NzgxIDEuMTkxNDA2LTYuODk4NDM3IDIuMTM2NzE4bDEuMTI4OTA2LTUuOTY4NzVjLjY0ODQzNy0zLjQzNzUtLjEyODkwNi02Ljk5MjE4Ny0yLjE1NjI1LTkuODQzNzUtMi4wMjczNDQtMi44NTU0NjgtNS4xMjg5MDYtNC43NTc4MTItOC41ODk4NDQtNS4yNzczNDNsLTM3LjExNzE4Ny01LjQ5NjA5NGMtMTAuOTU3MDMyLTEuNjg3NS0yMS4yNDIxODggNS43MjY1NjMtMjMuMDk3NjU2IDE2LjY1NjI1bC05LjMzNTkzOCA1Mi45OTIxODctMTAuMjIyNjU2LTIuMTkxNDA2Yy00LjQxNzk2OS0uOTQ1MzEyLTkuMDMxMjUtLjA4MjAzMS0xMi44MDQ2ODggMi40MDIzNDQtMy43NzM0MzcgMi40ODQzNzUtNi4zOTQ1MzEgNi4zODI4MTItNy4yNjk1MzEgMTAuODEyNWwtNy43MTg3NSAzOS4xMjEwOTRjLS44ODY3MTkgNC41MDc4MTIuMTAxNTYzIDkuMTc5Njg3IDIuNzM4MjgxIDEyLjkzNzUgMi42MzY3MTkgMy43NjE3MTggNi42OTE0MDYgNi4yODEyNSAxMS4yMzA0NjkgNi45ODQzNzVsMTkuNDY0ODQ0IDMuMDA3ODEyaC4xMDkzNzVsNDUuMDg5ODQ0IDYuMDU0Njg4LS40MzM1OTQgMS4yODEyNWMtMy43Njk1MzIgMTEuMTY3OTY5LS44NTkzNzUgMjMuNTA3ODEyIDcuNTAzOTA2IDMxLjgxNjQwNi4yNTc4MTIuMjUzOTA2LjU2MjUuNDQ1MzEzLjgwMDc4MS42OTUzMTNsMTguODE2NDA3IDUzLjI2OTUzMS0zOS4wMjM0MzggNTkuMzA0Njg3LTIwLjA4OTg0NCAyMy44MDg1OTRjLTEuNTc4MTI1IDEuODY3MTg4LTIuMjE0ODQ0IDQuMzUxNTYyLTEuNzM0Mzc1IDYuNzUuNDg0Mzc1IDIuMzk0NTMxIDIuMDM1MTU3IDQuNDM3NSA0LjIxNDg0NCA1LjU0Njg3NWwzOC42NzE4NzUgMTkuNzEwOTM3LTE3LjI2MTcxOSAxMC40MDIzNDQtMTY1Ljc2OTUzMSAyMC43OTY4NzUgMS45ODQzNzUgMTUuODc1IDE2Ny40NTcwMzEtMjFjMS4xMTMyODItLjEzNjcxOSAyLjE4NzUtLjUwNzgxMiAzLjE0NDUzMi0xLjA5NzY1NmwxMDYuODk0NTMxLTY0LjYwMTU2MyA1Ni4xNDQ1MzEtMjAuNjg3NSA1NS42MDU0NjktMjAuNDg4MjgxIDUuNzUzOTA2LTIuMTE3MTg3Yy44NzUtLjMyODEyNSAxLjY4NzUtLjgwNDY4OCAyLjM5ODQzNy0xLjQxMDE1Nmw1My43ODUxNTctNDUuNTk3NjU3IDM2Ljg3MTA5My0xNS41MTk1MzF6bS0xMjguMDA3ODEzIDYzLjM3NSAxMC40MDIzNDQtMy40OTYwOTRjNC4yNDIxODgtMS40MTAxNTYgOC44NTkzNzUuNjc5Njg3IDEwLjU5NzY1NiA0LjgwMDc4MWwxLjA3NDIxOSAyLjU4NTkzOC0zOS4zNTkzNzUgMTQuNTExNzE4LTEuMjAzMTI1LjQzNzUtNi40ODgyODEtMTUuODMyMDMxIDEzLjA3NDIxOC04LjcxMDkzNyAzLjY5NTMxMyAzLjc0NjA5NGMyLjE0MDYyNSAyLjE2MDE1NiA1LjMyMDMxMyAyLjkxNzk2OCA4LjIwNzAzMSAxLjk1NzAzMXptLTE1My44MzIwMzEtNzkuMTk5MjE5Yy00LjU4OTg0NC0uNDE0MDYyLTguNzQyMTg3LTIuOTA2MjUtMTEuMjYxNzE5LTYuNzY1NjI1LTIuNTIzNDM3LTMuODU5Mzc1LTMuMTQ0NTMxLTguNjYwMTU2LTEuNjc5Njg3LTEzLjAzNTE1NmwxLjY1NjI1LTVoNDkuMTA5Mzc1bDUxLjg5MDYyNSAxNC44MzIwMzEgMjMuMDU0Njg3IDM4LjQwMjM0NC00LjE4MzU5NCAxOS4wNzgxMjUtMjIuODU1NDY4LTM2LjU1MDc4MWMtMS4zMjAzMTMtMi4xMzI4MTMtMy41NjI1LTMuNTIzNDM4LTYuMDU4NTk0LTMuNzYxNzE5em0zMi4yMTg3NS00MC44MDA3ODFoLTM5LjgzOTg0NGwzLjcxMDkzOC0yMi41NDI5NjkgMi42MTcxODctLjIzMDQ2OWMxMy40MzM1OTQtMS4yMjY1NjIgMjYuNTY2NDA2LTQuNjk1MzEyIDM4Ljg1NTQ2OS0xMC4yNjU2MjVsLjM2NzE4Ny4zMjAzMTN6bS0zMy40MjU3ODEtMzguOTE3OTY5IDQuNzE4NzUtMjguNjQwNjI1Yy45MjU3ODEgNC4xNjc5NjkgMy4xNjc5NjggNy45Mjk2ODcgNi40MDIzNDQgMTAuNzE4NzVsMTQuMDc4MTI0IDEyLjExMzI4MWMtOC4xMjg5MDYgMi45NjQ4NDQtMTYuNTkzNzUgNC45MTQwNjMtMjUuMTk5MjE4IDUuODA4NTk0em0xMjEuNDk2MDk0IDE4My4zMjAzMTItOC4yNzM0MzggMy4wNDY4NzYgMy4zMjAzMTItMTUuMTUyMzQ0em0xMS44NzEwOTMtNDIuODAwNzgxLTcuMTk5MjE5IDQuODAwNzgxLTMuNjAxNTYyIDIuMzk4NDM4LS42NDQ1MzEtMS4wMzkwNjIgNC4wNDY4NzUtMTguNDg4Mjgyem0tMTQuMzk4NDM3LTU1LjEwNTQ2OS0xNS45NjA5MzgtMjYuNTg5ODQzYy0xLjA0Mjk2OC0xLjc0MjE4OC0yLjcxMDkzNy0zLjAxOTUzMS00LjY2NDA2Mi0zLjU3ODEyNWwtNDkuMDcwMzEzLTE0LjA0Njg3NSA0LTIyLjg0NzY1NyAxNS4xOTkyMTkgMTMuMDcwMzEzYzYuMTE3MTg4IDUuMjU3ODEzIDE0Ljc4OTA2MiA2LjMyODEyNSAyMiAyLjcxNDg0NGw0NC42NDg0MzgtMjIuMzUxNTYzem0zNS4zODI4MTItMTEwLjA4NTkzN2MuOTUzMTI1LS40ODQzNzUgMi4wNTg1OTQtLjU2MjUgMy4wNzQyMTktLjIyNjU2MyAxIC4zMzIwMzIgMS44MjgxMjUgMS4wNTQ2ODggMi4yOTI5NjkgMiAuOTg4MjgxIDEuOTY4NzUuMTk5MjE4IDQuMzY3MTg4LTEuNzY1NjI1IDUuMzYzMjgybC03NC42ODc1IDM3LjM5ODQzN2MtMS40NDUzMTMuNjk1MzEzLTMuMTYwMTU3LjQ3NjU2My00LjM4NjcxOS0uNTUwNzgxbC0zMy41MjczNDQtMjguODc1LTIzLjc4NTE1Ni0yMC40NjA5MzhjLTEuMjIyNjU2LTEuMDU4NTkzLTEuNjg3NS0yLjc0NjA5My0xLjE4MzU5NC00LjI4MTI1LjUwNzgxMy0xLjUzNTE1NiAxLjg4NjcxOS0yLjYxMzI4MSAzLjQ5NjA5NC0yLjczNDM3NGguMjk2ODc1Yy45NTcwMzEgMCAxLjg4MjgxMy4zNDM3NSAyLjYwOTM3NS45NjQ4NDNsNTUuMzIwMzEyIDQ3LjYwMTU2M3ptLTcyLjE5OTIxOC03Mi40MTAxNTZjLjA0Mjk2OCAxMi4wMTU2MjUtNy42MDU0NjkgMjIuNzA3MDMxLTE4Ljk4ODI4MiAyNi41NTA3ODEtMTEuMzgyODEyIDMuODQzNzUtMjMuOTQ1MzEyLS4wMjczNDQtMzEuMTk1MzEyLTkuNjA1NDY5bDQ4Ljk4NDM3NS0yNC40NzI2NTZjLjc0NjA5MyAyLjQ0MTQwNiAxLjE0ODQzNyA0Ljk3NjU2MyAxLjE5OTIxOSA3LjUyNzM0NHptLTI4LTI4YzYuNzE0ODQzLjAyNzM0MyAxMy4xOTE0MDYgMi40ODQzNzUgMTguMjMwNDY4IDYuOTIxODc1bC00Ni4wNTQ2ODcgMjIuOTkyMTg3YzAtLjY0MDYyNS0uMTkxNDA3LTEuMjUtLjE5MTQwNy0xLjg5ODQzNy4wMTU2MjYtMTUuNDUzMTI1IDEyLjUzNTE1Ny0yNy45ODQzNzUgMjcuOTkyMTg4LTI4LjAxNTYyNXptLTI0LjY3MTg3NiA2OS44MDg1OTNjNy41MDM5MDcgMS4xOTE0MDcgMTMuNjQwNjI2IDYuNjI1IDE1LjczNDM3NiAxMy45Mjk2ODhsLTgtNi44ODI4MTJjLTguMTY3OTY5LTcuMDU4NTk0LTIwLjQ3MjY1Ny02LjMxNjQwNy0yNy43MzQzNzYgMS42NzU3ODEgNC4zMjAzMTMtNi42NDg0MzggMTIuMTg3NS0xMC4wNzgxMjUgMjAtOC43MjI2NTd6bS0xMTguOTI5Njg3IDgyLjkzNzUgNy43MjI2NTYtMzkuMTI4OTA2LTcuODU1NDY5LTEuNTQyOTY4IDguODcxMDk0Ljg3MTA5MyAxMC43ODEyNSAyLjMxMjUtNy4wOTM3NSA0MC4zMDQ2ODgtMTEuNzE4NzUtMS44MDg1OTR6bTQ3LjM5NDUzMS0xMDMuNDY0ODQzYy40Mzc1LTIuMzM5ODQ0IDIuNjMyODEzLTMuOTIxODc1IDQuOTkyMTg4LTMuNjAxNTYzbDMzLjg3ODkwNiA1LjAxOTUzMi02LjE2MDE1NiAzMi42NjQwNjJ2LjE3NTc4MWwtMTMuMTM2NzE5IDc5LjUwMzkwNy0zOC43MDMxMjUtNS4yMDMxMjZ6bTU4LjY5NTMxMyAyMTQuODQ3NjU2LTE1LjI3MzQzOC00My4yNTM5MDYgMjguNTc4MTI1IDIuNTk3NjU2IDYuNTE5NTMyIDQyLjYwMTU2My00Ni42MDE1NjMgNjguMDc4MTI0LTExLjA0Njg3NS02LjgwODU5MyAzNi45NTMxMjUtNTYuMTYwMTU3YzEuMzc1LTIuMDg1OTM3IDEuNjk5MjE5LTQuNjk1MzEyLjg3MTA5NC03LjA1NDY4N3ptLTE4LjMyODEyNSAxMDYuOTY4NzUtMzguNTI3MzQ0LTE5LjYzMjgxMyA5LjQ3MjY1Ni0xMS4xOTkyMTggMTguNjk1MzEzIDExLjUyNzM0NGMuNjI4OTA2LjM4MjgxMiAxLjMxMjUuNjc5Njg3IDIuMDIzNDM3Ljg3ODkwNi43MDMxMjUuMjAzMTI1IDEuNDMzNTk0LjMwNDY4NyAyLjE2Nzk2OS4zMDQ2ODdoLjkyNTc4MWM3LjI3MzQzOC4wMTU2MjUgMTMuNjMyODEzIDQuODkwNjI1IDE1LjUzOTA2MyAxMS45MDYyNWwtMi40NjQ4NDQgMS40ODgyODF6bTc0LjA3MDMxMi00NC42MDE1NjNjLS40NzY1NjIuMTc1NzgyLS45Mzc1LjM5ODQzOC0xLjM3NS42NjQwNjNsLTQ4LjQ1NzAzMSAyOS4yOTY4NzVjLTMuMjc3MzQ0LTcuNjA1NDY5LTkuMzYzMjgxLTEzLjY0ODQzOC0xNi45OTIxODctMTYuODc4OTA2bDQ1LjkxNDA2Mi02Ny4wNzQyMTljMS4xNDg0MzgtMS42NzE4NzUgMS42MTcxODgtMy43MjI2NTYgMS4zMDQ2ODgtNS43MjY1NjNsLTYuNDAyMzQ0LTQxLjgxNjQwNiAyOS4xMjEwOTQgMi42NDg0MzggMjkuNDI1NzgxIDQ3LjA3ODEyNS05LjQ4ODI4MSA0My4zMjAzMTJ6bTAgMCIvPjwvc3ZnPg==" alt="Bush Walks" />
+                        </div>
+                        <div class="ribbon">
+                            <p>Bush Walks (5min)</p>
+                        </div>
+                    </div>
+                    <div class="ribbon_container">
+                        <div class="notch">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PGc+PHBhdGggZD0ibTQ4Mi4xMDQgNDM5LjQ5NWgtMTE1Ljg3OHYtNTguNDM1YzM5LjgzLTQuOTQxIDcwLjc1OS0zOC45OTcgNzAuNzU5LTgwLjE0M3YtMTkxLjI3YzAtNDQuNTMxLTM2LjIyOC04MC43NTktODAuNzU5LTgwLjc1OS0zNC4wODMgMC02My40OTIgMjEtNzUuMjc0IDUxLjM1Ny0yLjE5Mi0yLjM3Ny00LjUwMi00LjY2NS02LjkyNS02Ljg1NS4wMjctLjgwMy4wNC0xLjYwNi4wNC0yLjQwNy0uMDAxLTM5LjE0LTMxLjg0NC03MC45ODMtNzAuOTg0LTcwLjk4My0zOS4xNDEgMC03MC45ODQgMzEuODQzLTcwLjk4NCA3MC45ODQgMCAuODAxLjAxNCAxLjYwNC4wNDEgMi40MDgtMjIuMjE2IDIwLjA2OC0zNC44NTUgNDguMzg1LTM0Ljg1NSA3OC40OTEgMCA4LjU2MiAxLjAyMiAxNy4wNDQgMy4wNDMgMjUuMjg0LTE2LjM1OCAyMS45ODctMjUuMzExIDQ4LjkyOC0yNS4zMTEgNzYuNDQyIDAgNjcuMjUxIDUyLjEwNiAxMjIuNTYxIDExOC4wNjcgMTI3LjY4djI3LjM3NWMtOC40MDItNy4xNzYtMTkuMjk2LTExLjUxMy0zMS4xODYtMTEuNTEzLTMuMjM3IDAtNi40MzcuMzE5LTkuNTcxLjk1NC0xMC42MjEtMTEuMjk3LTI1LjU3Ni0xNy44NzUtNDEuMjMzLTE3Ljg3NS0xOS4yOTMgMC0zNi44MzkgOS41OTktNDcuMjMxIDI1LjQ0OC0yMC44MzIuMzIyLTM4LjE4NCAxNS4yNTUtNDIuMjM5IDM0Ljk4MS0xMi40NzQgMy41OTctMjEuNjI0IDE1LjExNi0yMS42MjQgMjguNzMydjMyLjYwOWMwIDUuNTIzIDQuNDc3IDEwIDEwIDEwaDIwMC43OTRjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTBoLTE5MC43OTR2LTIyLjYwOWMwLTUuNDU2IDQuNDM5LTkuODk2IDkuODk2LTkuODk2aDQ1Mi4yMDljNS40NTcgMCA5Ljg5NiA0LjQzOSA5Ljg5NiA5Ljg5NnYyMi42MDloLTE5MC43OTRjLTUuNTIzIDAtMTAgNC40NzctMTAgMTBzNC40NzcgMTAgMTAgMTBoMjAwLjc5M2M1LjUyMyAwIDEwLTQuNDc3IDEwLTEwdi0zMi42MDljMC0xNi40ODUtMTMuNDExLTI5Ljg5Ni0yOS44OTYtMjkuODk2em0tMTkxLjkzNi05Mi4wNjdjMTMuMDkxIDE4LjY4NyAzMy4zMjUgMzAuODY0IDU2LjA1NyAzMy42NDJ2NTguNDI1aC0xMzMuMTQydi01OC4yMDZjMjkuNjU0LTIuMzAxIDU2LjUwOC0xNC43NDYgNzcuMDg1LTMzLjg2MXptNjYuMDU4LTI5OC41MzljMzMuNTAyIDAgNjAuNzU5IDI3LjI1NiA2MC43NTkgNjAuNzU5djE5MS4yN2MwIDMwLjA5Ny0yMS45OTcgNTUuMTU0LTUwLjc1OSA1OS45MzZ2LTc3LjI3OGwyNi41MzUtMjYuNTM1YzMuOTA1LTMuOTA1IDMuOTA1LTEwLjIzNyAwLTE0LjE0My0zLjkwNS0zLjkwNS0xMC4yMzctMy45MDUtMTQuMTQzIDBsLTEyLjM5MyAxMi4zOTJ2LTgzLjQzOWMwLTUuNTIzLTQuNDc3LTEwLTEwLTEwcy0xMCA0LjQ3Ny0xMCAxMHYxODkuMDE0Yy0xNy41MzEtMi44NzMtMzIuODYyLTEzLjIzMS00Mi4xLTI4LjY1NSAxNi45MjgtMjEuNzEyIDI3LjAyMy00OSAyNy4wMjMtNzguNjAxIDAtMjcuNTE0LTguOTUzLTU0LjQ1NS0yNS4zMS03Ni40NDIgMi4wMjEtOC4yNDEgMy4wNDMtMTYuNzIzIDMuMDQzLTI1LjI4NCAwLTE3Ljk2LTQuNDk5LTM1LjI4NC0xMi44NDYtNTAuNTk5IDQuMTA5LTMwLjAwMiAyOS42NTYtNTIuMzk1IDYwLjE5MS01Mi4zOTV6bS0yNjEuMjEgMjA0LjcyYzAtMjQuNjgyIDguNTM3LTQ4LjgxNiAyNC4wMzctNjcuOTU3IDIuMDc5LTIuNTY2IDIuNzU2LTUuOTkzIDEuODEtOS4xNTctMi4zNzUtNy45NDktMy41OC0xNi4yMy0zLjU4LTI0LjYxMiAwLTI1Ljg0MyAxMS40ODYtNTAuMDYxIDMxLjUxMy02Ni40NDUgMi42MTktMi4xNDMgMy45NzctNS40NjUgMy42MDgtOC44MjktLjIwMy0xLjg1NC0uMzA2LTMuNzQ2LS4zMDYtNS42MjUgMC0yOC4xMTIgMjIuODcyLTUwLjk4NCA1MC45ODUtNTAuOTg0czUwLjk4NCAyMi44NzIgNTAuOTg0IDUwLjk4NGMwIDEuODc4LS4xMDMgMy43NzEtLjMwNiA1LjYyNy0uMzY4IDMuMzYzLjk5IDYuNjg1IDMuNjA5IDguODI3IDIwLjAyNyAxNi4zODQgMzEuNTEzIDQwLjYwMiAzMS41MTMgNjYuNDQ1IDAgOC4zODItMS4yMDUgMTYuNjYzLTMuNTggMjQuNjEyLS45NDYgMy4xNjQtLjI2OSA2LjU5IDEuODEgOS4xNTcgMTUuNTAxIDE5LjE0MSAyNC4wMzggNDMuMjc1IDI0LjAzOCA2Ny45NTcgMCA1Ni4yMTctNDMuMTQ4IDEwMi41NDUtOTguMDY2IDEwNy42MDh2LTU5Ljk4OGwzOC43MzEtMzguNzMxYzMuOTA1LTMuOTA1IDMuOTA1LTEwLjIzNy0uMDAxLTE0LjE0Mi0zLjkwNS0zLjkwNS0xMC4yMzctMy45MDUtMTQuMTQyLjAwMWwtMjQuNTg4IDI0LjU4OXYtNTYuODMxbDMwLjEyLTMwLjEyYzMuOTA1LTMuOTA1IDMuOTA1LTEwLjIzNyAwLTE0LjE0My0zLjkwNS0zLjkwNS0xMC4yMzctMy45MDUtMTQuMTQzIDBsLTE1Ljk3NyAxNS45Nzd2LTY3LjQ5NWMwLTUuNTIzLTQuNDc3LTEwLTEwLTEwcy0xMCA0LjQ3Ny0xMCAxMHY2Ny40OTVsLTE1Ljk3Ny0xNS45NzdjLTMuOTA1LTMuOTA1LTEwLjIzNy0zLjkwNS0xNC4xNDMgMC0zLjkwNSAzLjkwNS0zLjkwNSAxMC4yMzcgMCAxNC4xNDNsMzAuMTIgMzAuMTJ2NTYuODMxbC0yNC41ODktMjQuNTg5Yy0zLjkwNS0zLjkwNS0xMC4yMzctMy45MDUtMTQuMTQzIDAtMy45MDUgMy45MDUtMy45MDUgMTAuMjM3IDAgMTQuMTQybDM4LjczMSAzOC43MzJ2NTkuOTg4Yy01NC45Mi01LjA2NC05OC4wNjgtNTEuMzkyLTk4LjA2OC0xMDcuNjF6bS01Mi4wODYgMTg1Ljg4NmM0LjIzNC05LjExNyAxNC4wOTctMTUuMTU3IDI1LjA2OS0xMy41NjkgNC4yNzEuNjIyIDguNDU0LTEuNTczIDEwLjM3OS01LjQzMyA2LjIzNS0xMi40OTkgMTguNzcxLTIwLjI2MyAzMi43MTUtMjAuMjYzIDExLjY2IDAgMjIuNzIzIDUuNjUgMjkuNTkxIDE1LjExNSAyLjYyNiAzLjYyIDcuMzM3IDUuMDU0IDExLjUzOCAzLjUxNCAzLjA4OS0xLjEzNCA2LjM0NC0xLjcwOCA5LjY3NC0xLjcwOCAxMy41MTkgMCAyNC44MzcgOS42MDIgMjcuNDk0IDIyLjM0NHoiLz48cGF0aCBkPSJtMjY1LjQyIDQ5OC4xN2MtMS42MDktMy44NjMtNS41ODctNi4zNzctOS43NzEtNi4xNS00LjE1Ny4yMjUtNy44MjMgMy4wOTUtOS4wMjkgNy4wNzktMS4xODcgMy45MjEuMTk3IDguMzQ0IDMuNDc0IDEwLjgzMiAzLjM4NiAyLjU3IDguMDk0IDIuNzI3IDExLjYzNi4zNzkgMy45NC0yLjYxMSA1LjQ3Ni03Ljc4MiAzLjY5LTEyLjE0eiIvPjwvZz48L2c+PC9nPjwvc3ZnPg==" alt="Botanic Gardens"/>
+                        </div>
+                        <div class="ribbon">
+                            <p>Botanic Gardens (10min)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section container map">
+                <div class="text_container heading_content">
+                    <div class="icon_container location_icon">
+                        <i class="fa fa-search"></i>
+                        
+                    </div>
+                    <p class="noncard_header">Find Us</p>
+                    <p>Crimson Villa<br>5 Mission St Katoomba<br> NSW 2780 Australia</p>
+                </div>
+                <div class="google container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.80522694269!2d150.2973413157415!3d-33.71398851847295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b126c21e94600c5%3A0xa4360abb7221894f!2sCrimson%20Villa!5e0!3m2!1sen!2sau!4v1610705287346!5m2!1sen!2sau" width="100%" height="300" frameborder="" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="theme_container" id="amenities_card_container">
+            <div class="section container feedback">
+                <div class="section container comments">
+                    <div class="text_container heading_content">
+                        <p class="noncard_header">Don't Take Our Word For It!</p>
+                        <div class="icon_container trophy">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-comments"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>Take a look at what our previous guests have to say!</p>
+                        <a href="https://www.au.v3travel.com/CABS4/Pages/Availability.aspx?exl_dn=aaa_mywebsite&exl_psn=crimson_villa_Rezobx" target="_blank" rel="noopener noreferrer">
+                            <button class="action_btn check">Check Availability</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="section container reviews" id="third_section" onclick="pauseAnimation()">
+                    <div class="slide_overlay" id="slide_overlay">
+                        <div class="slide_card">
+                            <p>
+                                "Crimson Villa was a perfect getaway stay for our family. 
+                                We enjoyed the cozy clean home with a functional kitchen and laundry facilities. 
+                                The garden and backyard provided ample space for children to expand their energy. 
+                                It was delightful to see different species of birds visiting the garden and feeding them with the complimentary bird 
+                                seeds was an experience. The host Maralyn was very attentive and shared many valuable local tips. She was great in communication 
+                                throughout and took special effort to update us on the bushfires condition. Having a private parking lot within the property was helpful. And yes, you do need a car as the town centre is a few minutes away."
+                                
+                                <br><br>
+                                <div class="icon_container star">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                
+                                5 out of 5 by Anonymous on Expedia
+                            </p>
+                        </div>
+                        <div class="slide_card">
+                            <p>
+                                "Accueil chaleureux avec des explications pertinentes et complètes et cottage exceptionnel. Allez-y sans hésiter, vous ne serez pas déçus."
+                                <br><br>
+                                "Warm welcome with relevant and complete explanations and exceptional cottage. Go there without hesitation, you won't be disappointed."
+                                <br><br>
+                                <div class="star_container">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                5 out of 5 by Patrick on Hotels.com
+                            </p>
+                        </div>
+                        <div class="slide_card">
+                            <p>
+                                "What a gem of a find. Loved the property and how homely it felt. 
+                                We have been staying in a number of places recently and this was by far the cleanest. 
+                                So much love put into their accommodation. Garden and feeding the wild birds was a special treat. 
+                                A big storm came through and it was the perfect spot to be stuck. The managers are amazing. 
+                                Approachable, friendly and offer fantastic tips to get the most out of your stay. 
+                                The only negative I have is that we had to leave"                            
+                                <br><br>
+                                <div class="star_container">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                5 out of 5 by Anonymous on Expedia
+                            </p>
+                        </div>
+                        <div class="slide_card">
+                            <p>
+                                "Cosy home from home in the mountains Posted Jun 19, 2019
+                                Our hosts could not have been more warm or accommodating - they lent us 
+                                raincoats for our rainy bushwalk and built a fire pit for the children on our first 
+                                night - a very friendly couple and a beautiful villa - the children gave it 10 out of 10, 
+                                despite the inclement weather, and are looking forward to visiting again soon."
+                                <br><br>
+                                <div class="star_container">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                10 out of 10 by Sara on Hotels.com
+                            </p>
+                        </div>
+                        <div class="slide_card">
+                            <p>
+                                "Way more than expected. Lovely place to stay. Very comfortable."
+                                <br><br>
+                                <div class="star_container">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                5 out of 5 by Rohan on Wotif
+                            </p>
+                        </div>
+                        <div class="slide_card">
+                            <p>
+                                "Posted Oct 23, 2018 Nice and beautiful villa in a convenient location, friendly hosts, enjoyed the stay!!"
+                                <br><br>
+                                <div class="star_container">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                5 out of 5 by Koshy on Wotif
+                            </p>
+                        </div>
+                        <div class="slide_card" >
+                            <p>
+                                "Crimson Villa was a perfect getaway stay for our family. 
+                                We enjoyed the cozy clean home with a functional kitchen and laundry facilities. 
+                                The garden and backyard provided ample space for children to expand their energy. 
+                                It was delightful to see different species of birds visiting the garden and feeding them with the complimentary bird 
+                                seeds was an experience. The host Maralyn was very attentive and shared many valuable local tips. She was great in communication 
+                                throughout and took special effort to update us on the bushfires condition. Having a private parking lot within the property was helpful. And yes, you do need a car as the town centre is a few minutes away."
+                                
+                                <br><br>
+                                <div class="icon_container star">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                5 out of 5 by Anonymous on Expedia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container facebook_section">
+            <div class="content_wrapper">
+                <div class="text_container heading_content">
+                    <p class="noncard_header" id="follow_us">Follow Us.</p>
+                    <div class="icon_container like">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-thumbs-up"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Give us a like and keep up to date with all the latest events, deals and more.</p>
+                    <a href="https://www.au.v3travel.com/CABS4/Pages/Availability.aspx?exl_dn=aaa_mywebsite&exl_psn=crimson_villa_Rezobx" target="_blank" rel="noopener noreferrer">
+                        <button class="action_btn book">Book Now</button>
+                    </a>
+                </div>
+                <div class="fb_container">
+                    <div class="fb-page" style="min-width: 300px;width: 100%;"data-href="https://www.facebook.com/Crimson-Villa-438640706217026/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Crimson-Villa-438640706217026/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Crimson-Villa-438640706217026/">Crimson Villa</a></blockquote></div>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <footer>
+        <div class="text_container" id="contact_p_container">
+            <p>5 Mission St
+            <br>Katoomba NSW, 2780
+            <br>Australia
+            </p>   
+            <br>
+            <p>+61 426 866 247</p>     
+            <p style="text-transform: none;">bookings@crimsonvilla.com.au</p>     
+            
+        </div>
+        <p>&copy; 2021 Crimson Villa</p>
+        <a href="https://content.destinationnsw.com.au/"><p style="text-transform: none;">Imagery provided by Destination NSW</p></a>
+    </footer>
+    
+</body>
+<script src="..\code\slideshow.js"></script>
+<script src="..\code\main.js"></script>
+</html>
+
+
+
+
+
