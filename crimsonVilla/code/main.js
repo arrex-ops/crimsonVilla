@@ -92,16 +92,16 @@ function pauseAnimation() {
 
 
 // Explore button animation 
-const middleArrow = document.getElementById('middle');
-const bottomArrow = document.getElementById('bottom');
-function exploreArrowDown() {
-    middleArrow.style.marginTop = '6rem';
-    bottomArrow.style.marginTop = '8rem';
-}
-function exploreArrowUp() {
-    middleArrow.style.marginTop = '4rem';
-    bottomArrow.style.marginTop = '4rem';
-}
+// const middleArrow = document.getElementById('middle');
+// const bottomArrow = document.getElementById('bottom');
+// function exploreArrowDown() {
+//     middleArrow.style.marginTop = '6rem';
+//     bottomArrow.style.marginTop = '8rem';
+// }
+// function exploreArrowUp() {
+//     middleArrow.style.marginTop = '4rem';
+//     bottomArrow.style.marginTop = '4rem';
+// }
 
 
 // Opacity On Scroll Animation 
@@ -123,9 +123,7 @@ function createObserver() {
   };
 
   observer = new IntersectionObserver(handleIntersect, options);
-//   observer.observe(targetEle[i]);
   observer.observe(targetEle[i]);
-//   console.log(targetEle[i])
 }
 
 function handleIntersect(entries, observer) {
@@ -141,13 +139,13 @@ function handleIntersect(entries, observer) {
         } else {
             entry.target.style.opacity = 1;
             entry.target.style.marginTop = 0;
-            if (entry.target.id === 'first_section') {
-                entry.target.children[0].style.setProperty('transform', overlayOnePos)
-            } else if (entry.target.id === 'second_section') {
-                entry.target.children[0].style.setProperty('transform', overlatTwoPos)
-            } else if (entry.target.id === 'fourth_section') {
-                entry.target.children[0].style.setProperty('transform', overlatThreePos)
-            }
+            // if (entry.target.id === 'first_section') {
+            //     entry.target.children[0].style.setProperty('transform', overlayOnePos)
+            // } else if (entry.target.id === 'second_section') {
+            //     entry.target.children[0].style.setProperty('transform', overlatTwoPos)
+            // } else if (entry.target.id === 'fourth_section') {
+            //     entry.target.children[0].style.setProperty('transform', overlatThreePos)
+            // }
         }
     });
     status = true;
