@@ -31,7 +31,7 @@ p, h1 {
 }
 .hero_overflow {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("threeSistersAndMountSolitary.jpg");
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -79,7 +79,7 @@ p {
     padding: 0.5rem 0.5rem;
     z-index: 12;
     position: relative;
-    display: none;
+    /* display: none; */
 }
 .hero_container p::after {
     width: 50%;
@@ -229,7 +229,7 @@ main {
 }
 .expect {
     display: flex;
-    flex: 0 0 45%;
+    /* flex: 0 0 45%; */
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -387,7 +387,7 @@ main {
     display: flex;
     align-items: center;
     color: white;
-    flex: 0 0 40%;
+    /* flex: 0 0 40%; */
     
 }
 .google {
@@ -424,7 +424,7 @@ nav > img {
 }
 .circular_nav_container {
     position: fixed;
-    top: 85vh;
+    top: 80vh;
     z-index: 9999;
     width: 100%;
     display: flex;
@@ -432,8 +432,8 @@ nav > img {
     transition: opacity 2s ease 0s, scale 1s ease 0s;
 }
 .circular_nav_button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: rgb(72, 105, 255);
     border-radius: 50%;
     display: flex;
