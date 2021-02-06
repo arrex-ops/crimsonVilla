@@ -80,6 +80,9 @@
         border: none;
         height: 20rem;
     }
+    .light {
+        width: 50%;
+    }
     .noncard_header {
         font-size: 3rem;
         line-height: 4rem;

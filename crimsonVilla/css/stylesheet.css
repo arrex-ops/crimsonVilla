@@ -230,7 +230,6 @@ main {
 }
 .expect {
     display: flex;
-    /* flex: 0 0 45%; */
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -266,9 +265,6 @@ main {
     width: 100vw;
     flex-flow: row wrap;
     justify-content: center;
-    opacity: 0;
-    transition: opacity 1s ease-out, margin-top 1s ease-out;
-    margin-top: 5rem;
 }
 .accolades_theme {
     justify-content: center;
@@ -746,7 +742,6 @@ footer {
     text-align: left;
     color: black;
     align-items: flex-start;
-    
 }
 .terms > p {
     text-align: left;
@@ -754,7 +749,7 @@ footer {
 .cardflex {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.6);
 }
 
 .tandc {
