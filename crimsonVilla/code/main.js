@@ -105,57 +105,57 @@ function pauseAnimation() {
 
 
 // Opacity On Scroll Animation 
-// let targetEle;
-// let i = 0;
+let targetEle;
+let i = 0;
 
-// window.addEventListener("load", (event) => {
-//   targetEle = document.getElementsByClassName('theme_container');
-//   createObserver();
-// }, false);
+window.addEventListener("load", (event) => {
+  targetEle = document.getElementsByClassName('theme_container');
+  createObserver();
+}, false);
 
-// function createObserver() {
-//   let observer;
+function createObserver() {
+  let observer;
 
-//   let options = {
-//     root: null,
-//     rootMargin: "0px",
-//     threshold: 0.05
-//   };
+  let options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.05
+  };
 
-//   observer = new IntersectionObserver(handleIntersect, options);
-//   observer.observe(targetEle[i]);
-// }
+  observer = new IntersectionObserver(handleIntersect, options);
+  observer.observe(targetEle[i]);
+}
 
-// function handleIntersect(entries, observer) {
-//     let overlayOnePos = 'skew(45deg, -25deg) rotate(70deg)'
-//     let overlatTwoPos = 'rotate(-10deg)'
-//     let overlatThreePos = 'rotate(-35deg) translate(-5rem)'
-//     let status = false;
-//     entries.forEach((entry) => {
-//         if (!entry.isIntersecting) {
-//         return;
-//         } if (status) {
-//             return;
-//         } else {
-//             entry.target.style.opacity = 1;
-//             entry.target.style.marginTop = 0;
-//             if (entry.target.id === 'first_section') {
-//                 entry.target.children[0].style.setProperty('transform', overlayOnePos)
-//             } else if (entry.target.id === 'second_section') {
-//                 entry.target.children[0].style.setProperty('transform', overlatTwoPos)
-//             } else if (entry.target.id === 'fourth_section') {
-//                 entry.target.children[0].style.setProperty('transform', overlatThreePos)
-//             }
-//         }
-//     });
-//     status = true;
-//     if (i === targetEle.length) {
-//         return;
-//     } else {
-//         i += 1;
-//         createObserver();
-//     }
-// }
+function handleIntersect(entries, observer) {
+    let overlayOnePos = 'skew(45deg, -25deg) rotate(70deg)'
+    let overlatTwoPos = 'rotate(-10deg)'
+    let overlatThreePos = 'rotate(-35deg) translate(-5rem)'
+    let status = false;
+    entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+        return;
+        } if (status) {
+            return;
+        } else {
+            entry.target.style.opacity = 1;
+            entry.target.style.marginTop = 0;
+            if (entry.target.id === 'first_section') {
+                entry.target.children[0].style.setProperty('transform', overlayOnePos)
+            } else if (entry.target.id === 'second_section') {
+                entry.target.children[0].style.setProperty('transform', overlatTwoPos)
+            } else if (entry.target.id === 'fourth_section') {
+                entry.target.children[0].style.setProperty('transform', overlatThreePos)
+            }
+        }
+    });
+    status = true;
+    if (i === targetEle.length) {
+        return;
+    } else {
+        i += 1;
+        createObserver();
+    }
+}
 
 
 

@@ -9,6 +9,7 @@
         margin: 3rem 4rem !important;
         padding: 2rem;
         border-radius: 20px;
+        justify-content: space-evenly;
     }
     h1 {
         font-size: 1.25rem;
@@ -30,7 +31,7 @@
     main {
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 100vw;
         border-radius: 40px;
     }
     #sticky_nav_book_btn {
@@ -51,9 +52,6 @@
     .hero_container > :nth-child(3) {
         margin: 2rem 0rem;
     }
-    main {
-        padding: 0rem 5rem;
-    }
     .main_cards {
         margin: 5rem auto;
         padding: 1.5rem;
@@ -72,13 +70,14 @@
         height: fit-content;
         flex-flow: row wrap;
         justify-content: space-evenly;
-        box-shadow: 0px 0px 8px 0px black;
         z-index: 10;
     }
     .accolades img {
         background-color: rgba(255, 255, 255, 0);
         border: none;
         height: 20rem;
+        /* flex: 0 0 20% !important; */
+        width: 22rem;
     }
     .light {
         width: 50%;
@@ -92,7 +91,7 @@
         flex: 0 0 100vw;
         justify-content: center;
         align-items: center;
-        padding: 3rem 10vw;
+        padding: 0rem 10vw;
         height: fit-content;
     }
     .slide_card {
@@ -132,7 +131,6 @@
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-        /* padding: 3rem 10vw; */
     }
     .amenities {
         flex-direction: row;
@@ -169,7 +167,6 @@
     }
     .text_container {
         display: block;
-        /* height: 20rem; */
     }
     .text_container > * {
         padding: 0.5rem 1rem;
@@ -258,7 +255,11 @@
     .activities_theme {
         height: fit-content;
         flex: 0 0 auto;
-        padding: 6rem 0rem;
+        padding-bottom: 6rem;
+        margin-top: 0rem;
+    }
+    .cardflex {
+        width: 50%;
     }
 }
 @media only screen and (min-width: 1300px) {

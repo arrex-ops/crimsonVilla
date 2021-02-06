@@ -1,6 +1,7 @@
 
 * {
     scroll-behavior: smooth;
+    
 }
 :root {
     --crimsonGradient: linear-gradient(to bottom right, crimson, rgb(255, 68, 68), crimson);
@@ -16,8 +17,10 @@ body, html {
     animation: fadeIn 0.5s ease 0s forwards;
     position: relative;
     overflow-x: hidden;
-    height: 100%;
+    /* height: 100%; */
+    scrollbar-width: 5vw;
 }
+
 p, h1 {
     text-align: center;
 }
@@ -35,11 +38,11 @@ p, h1 {
     background-position: 70%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 500vh;
+    background-attachment: scroll;
+    position: fixed;
+    z-index: -10000;
+    width: 100vw;
+    height: 100vh;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -208,17 +211,18 @@ header img {
     margin-right: 2rem;
 }
 main {
-    width: 100%;
+    width: 100vw;
     position: relative;
     top: 0;
-    margin: 0 auto;
-    padding: 0 0;
+    /* margin: 0 0; */
+    /* padding: 0 0; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    z-index: 10;
+    z-index: 1;
     border-radius: 20px;
+    /* overflow-x: hidden; */
 }
 .main_cards {
     background-color: white;
@@ -262,16 +266,19 @@ main {
 }
 .theme_container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-flow: row wrap;
     justify-content: center;
+    margin-top: 5rem;
+    opacity: 0;
+    transition: margin-top 1s ease-out, opacity 1s ease-out;
 }
 .accolades_theme {
     justify-content: center;
     height: fit-content;
 }
 .accolades {
-    flex: 0 0 100vw;
+    width: 100vw;
     height: 100%;
     padding: 3rem 0;
     overflow: hidden;
@@ -279,23 +286,22 @@ main {
     height: fit-content;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 8px 0px black;
     z-index: 10;
 }
 .accolades img {
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    height: 10rem;
-    flex: 0 0 20%;
+    height: 12rem;
+    width: 13rem;
 }
 .activities_theme {
     justify-content: space-evenly;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0)), url("DNSW waterfall.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    z-index: 1;
     padding: 10rem 0rem;
+    
     
 }
 .activities_theme > p {
@@ -344,14 +350,8 @@ main {
     justify-content: space-evenly;
     display: flex;
     align-items: center;
-    /* margin-top: 3rem; */
     padding: 6rem 0rem;
     z-index: 20;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0)), url("Linhcon rock.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 .fb_container {
     display: flex;
@@ -384,7 +384,6 @@ main {
     display: flex;
     align-items: center;
     color: white;
-    /* flex: 0 0 40%; */
     
 }
 .google {
@@ -621,7 +620,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    /* position: sticky; */
     padding: 2rem;
 }
 .icon_container {
@@ -754,7 +754,7 @@ footer {
 
 .tandc {
     width: 100vw;
-    background-color: var(--softBlue);
+    /* background-color: var(--softBlue); */
     padding: 3rem 0rem;
 }
 
