@@ -6,6 +6,7 @@
     --crimsonGradient: linear-gradient(to bottom right, crimson, rgb(255, 68, 68), crimson);
     --midnightGradient: linear-gradient(to bottom, rgb(36, 36, 36), rgb(10, 7, 7), rgb(36, 36, 36));
     --whiteGradient: linear-gradient(to right, white);
+    --softBlue: rgb(75, 127, 224);
 }
 body, html {
     width: 100%;
@@ -703,6 +704,9 @@ footer {
     height: fit-content;
     text-transform: uppercase;
 }
+.ribbon_container {
+    margin: 0rem 1rem;
+}
 .notch {
     height: 5rem;
     width: 5rem;
@@ -732,13 +736,31 @@ footer {
     transition: transform 0.25s ease-in-out 0s;
     transform: scale(1.3);
 }
-.ribbon_container:hover, .ribbon_container:active > .ribbon {
+.ribbon_container:hover > .ribbon, .ribbon_container:active > .ribbon {
     transition: background-color 0.5s ease-in-out 0s, color 0.25s ease-in-out 0s;
     background-color: rgb(49, 38, 38);
     color: white;
 }
-#tsandcs {
-    background-color: ;
+.terms {
+    width: 100%;
+    text-align: left;
+    color: black;
+    align-items: flex-start;
+    
+}
+.terms > p {
+    text-align: left;
+}
+.cardflex {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.tandc {
+    width: 100vw;
+    background-color: var(--softBlue);
+    padding: 3rem 0rem;
 }
 
 

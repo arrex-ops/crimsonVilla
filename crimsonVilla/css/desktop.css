@@ -269,6 +269,13 @@
     .content_wrapper {
         width: 60%;  
     }
+    .cardflex {
+        width: 50%;
+    }
+    .terms {
+        width: 80%;
+        border-radius: 30px;
+    }
     .map {
         width: 60%;
     }
