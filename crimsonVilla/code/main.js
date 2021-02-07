@@ -91,18 +91,6 @@ function pauseAnimation() {
 }
 
 
-// Explore button animation 
-// const middleArrow = document.getElementById('middle');
-// const bottomArrow = document.getElementById('bottom');
-// function exploreArrowDown() {
-//     middleArrow.style.marginTop = '6rem';
-//     bottomArrow.style.marginTop = '8rem';
-// }
-// function exploreArrowUp() {
-//     middleArrow.style.marginTop = '4rem';
-//     bottomArrow.style.marginTop = '4rem';
-// }
-
 
 // Opacity On Scroll Animation 
 let targetEle;
