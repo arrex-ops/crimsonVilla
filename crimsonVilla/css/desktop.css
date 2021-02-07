@@ -4,6 +4,10 @@
         width: 50%;
         margin: 0rem 0rem;
     }
+    .mySlides > img {
+        width: 200px;
+        height: 400px;
+    }
     .map {
         flex-direction: row;
         margin: 3rem 4rem !important;
@@ -282,5 +286,9 @@
     }
     .map {
         width: 60%;
+    }
+    .mySlides > img {
+        width: 200px;
+        height: 400px;
     }
 }

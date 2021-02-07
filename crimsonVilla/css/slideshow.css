@@ -12,6 +12,11 @@
     padding: 0 0;
 }
 
+.mySlides > img {
+  width: 200px;
+  height: 300px;
+}
+
   
   /* Next & previous buttons */
 .prev, .next {
